@@ -1,5 +1,4 @@
 var cart = [];
-
 function getCart() {
  return cart;
 }
@@ -9,8 +8,13 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(item) {
+function addToCart(item, itemName, Value) {
+  item = {itemName: ""};
+  cart.push(item);
+  return cart;
+  
  // write your code here
+
 }
 
 function viewCart() {
